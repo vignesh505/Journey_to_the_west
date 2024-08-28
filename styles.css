@@ -1,27 +1,53 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
 
-h1 {
-    font-family: 'Georgia', serif;
-    color: #2c3e50;
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
 
-a {
-    color: #2980b9;
+nav ul {
+    background-color: #2980b9;
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
-a:hover {
+nav ul li a:hover {
     text-decoration: underline;
 }
 
-ul {
-    list-style-type: square;
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    border: 2px solid #333;
 }
 
 table {
@@ -39,8 +65,28 @@ th, td {
     text-align: left;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    border: 2px solid #333;
+form {
+    margin: 20px 0;
+    text-align: center;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.class-based {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+#id-based {
+    color: #3498db;
+    font-style: italic;
+}
+
+/* Hierarchical Selector Example */
+header h1 {
+    font-family: 'Georgia', serif;
+    color: #ecf0f1;
 }
