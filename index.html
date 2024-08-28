@@ -7,15 +7,28 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Journey to the West</h1>
-    <p>Welcome to the Journey to the West website. Explore the legendary tale of the monk Xuanzang and his companions.</p>
-    
-    <ul>
-        <li><a href="page1.html">The Characters</a></li>
-        <li><a href="page2.html">The Adventures</a></li>
-    </ul>
-
-    <img src="path_to_image.jpg" alt="Journey to the West Image">
-
+    <header>
+        <h1>Journey to the West</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page1.html">The Characters</a></li>
+            <li><a href="page2.html">The Adventures</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>Welcome to the Journey to the West website. Explore the legendary tale of the monk Xuanzang and his companions.</p>
+        <img src="path_to_image.jpg" alt="Journey to the West Image">
+        <form>
+            <label for="character-select">Choose your favorite character:</label>
+            <select id="character-select">
+                <option value="xuanzang">Xuanzang (The Monk)</option>
+                <option value="sun-wukong">Sun Wukong (The Monkey King)</option>
+                <option value="zhu-bajie">Zhu Bajie (Pigsy)</option>
+                <option value="sha-wujing">Sha Wujing (Sandy)</option>
+            </select>
+        </form>
+    </main>
 </body>
 </html>
