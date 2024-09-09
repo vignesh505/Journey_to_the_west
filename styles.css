@@ -73,7 +73,12 @@ nav ul li a:hover {
     height: auto;
     margin-bottom: 20px;
 }
-
+.centered-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;  /* Adjust as needed */
+    height: auto;
+}
 /* Whimsical font for the text */
 .summary h2, .summary p {
     font-family: 'Pacifico', cursive; /* Whimsical font */
