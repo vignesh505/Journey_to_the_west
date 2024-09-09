@@ -66,7 +66,44 @@ nav ul li a:hover {
     text-align: center;
     background-color: #f4f4f5;
 }
+/* Layout for image and text */
+.character-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px 0;
+}
 
+.character-content img {
+    max-width: 40%;  /* Image size */
+    height: auto;
+    margin-right: 30px;  /* Space between image and text */
+}
+
+.character-info {
+    max-width: 50%;
+    font-family: 'Pacifico', cursive;  /* Whimsical font */
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Table Styles */
+.character-info table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.character-info table, th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.character-info th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
 /* Center the image and make it smaller */
 .centered-image {
     max-width: 50%; /* Image is smaller */
