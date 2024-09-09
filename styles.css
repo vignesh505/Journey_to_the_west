@@ -1,4 +1,4 @@
-
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     color: #333;
@@ -6,17 +6,8 @@ body {
     padding: 0;
 }
 
-
-#home-page {
-    background-image: url('journey-to-the-west-1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
 header {
-    background-color: rgba(44, 62, 80, 0.8); 
+    background-color: rgba(44, 62, 80, 0.8); /* Slightly transparent */
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -50,14 +41,6 @@ main {
     max-width: 800px;
 }
 
-img {
-    display: block;
-    margin: 20px auto;
-    width: 100%;
-    height: auto;
-    border: 2px solid #333;
-}
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -73,30 +56,15 @@ th, td {
     text-align: left;
 }
 
-form {
-    margin: 20px 0;
-    text-align: center;
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
 }
-
-select {
-    padding: 5px;
-    border: 1px solid #ccc;
-}
-
 
 .class-based {
     color: #e74c3c;
     font-weight: bold;
 }
-
-#character-select {
-    color: #3498db;
-    font-style: italic;
-}
-
-
-header h1 {
-    font-family: 'Georgia', serif;
-    color: #ecf0f1;
-}
-
