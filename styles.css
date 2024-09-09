@@ -6,8 +6,17 @@ body {
     padding: 0;
 }
 
+/* Background image for home page */
+#home-page {
+    background-image: url('journey-to-the-west-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 header {
-    background-color: rgba(44, 62, 80, 0.8); /* Slightly transparent */
+    background-color: rgba(44, 62, 80, 0.8); /* Slightly transparent to see the background */
     color: white;
     padding: 20px;
     text-align: center;
@@ -22,66 +31,5 @@ header a {
 
 header a:hover {
     text-decoration: underline;
-}
-
-nav ul {
-    background-color: #2980b9;
-    list-style-type: none;
-    padding: 10px;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-main {
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 800px;
-}
-
-img {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #333;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-
-table, th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-}
-
-/* Center image on story page */
-.center-image {
-    display: block;
-    margin: 0 auto;
-    max-width: 50%;
-    height: auto;
-}
-
-.summary {
-    text-align: center;
-    margin-top: 20px;
 }
 
