@@ -9,8 +9,19 @@ body {
 header {
     background-color: rgba(44, 62, 80, 0.8); /* Slightly transparent */
     color: white;
-    padding: 10px 0;
+    padding: 20px;
     text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 nav ul {
@@ -41,21 +52,6 @@ main {
     max-width: 800px;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-
-table, th, td {
-    border: 1px solid #ccc;
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-}
-
 img {
     display: block;
     margin: 20px auto;
@@ -64,7 +60,28 @@ img {
     border: 2px solid #333;
 }
 
-.class-based {
-    color: #e74c3c;
-    font-weight: bold;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
 }
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Center image on story page */
+.center-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+}
+
+.summary {
+    text-align: center;
+    margin-top: 20px;
+}
+
