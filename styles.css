@@ -56,3 +56,40 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Story Page Styles */
+#story-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Center the image and make it smaller */
+.centered-image {
+    max-width: 50%; /* Image is smaller */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Whimsical font for the text */
+.summary h2, .summary p {
+    font-family: 'Pacifico', cursive; /* Whimsical font */
+    color: #333;
+}
+
+/* Adjusting font size for readability */
+.summary h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
